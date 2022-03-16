@@ -69,7 +69,7 @@ nav .mobile-nav {
   font-size: 24px;
   line-height: 32px;
   color: #fff5e1;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .container p {
@@ -79,7 +79,7 @@ nav .mobile-nav {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 12px 0px;
+  margin: 12px 0;
   position: relative;
 }
 
@@ -89,9 +89,8 @@ nav .mobile-nav {
   display: flex;
   justify-items: center;
   flex: 1;
-  margin: 20px 0px;
+  margin: 20px 0;
   justify-content: space-between;
-  /* position: relative; */
 }
 
 .side_img {
