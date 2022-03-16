@@ -15,7 +15,6 @@ ul li {
 body {
   font-family: 'Roboto', serif;
   height: auto;
-  /* background: url(icons/.side_img.png); */
 }
 
 header {
@@ -48,7 +47,6 @@ nav .mobile-nav {
 }
 
 .container {
-  /* background: url(icons/.side_img.png); */
   max-width: 375px;
   padding: 120px 24px;
   background: #1c1a19;
