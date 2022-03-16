@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  /* background: #1c1a19; */
+  /* font-family: 'Crete Round', serif;
+font-family: 'Harmattan', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto Serif', serif;  */
+}
+
+header {
+  background: #3c3a39;
+  display: flex;
+  flex-direction: column;
+  height: 92px;
+}
+
+nav .mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 56px 24px;
+}
+
+.name_logo {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
