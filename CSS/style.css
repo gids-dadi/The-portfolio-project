@@ -15,20 +15,21 @@ ul li {
 body {
   font-family: 'Roboto', serif;
   height: auto;
+  width: 100%;
 }
 
 header {
   background: #3c3a39;
   display: flex;
   flex-direction: column;
-  height: 92px;
-  max-width: 375px;
+  height: auto;
+  width: 327px;
 }
 
 nav .mobile-nav {
   display: flex;
   justify-content: space-between;
-  margin: 56px 24px;
+  margin: 12px 24px;
 }
 
 .name_logo {
@@ -47,9 +48,13 @@ nav .mobile-nav {
 }
 
 .container {
-  max-width: 375px;
+  width: 327px;
+  height: auto;
   padding: 120px 24px;
   background: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .container h1 {
@@ -76,11 +81,11 @@ nav .mobile-nav {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   color: #fff;
   margin: 12px 0;
-  position: relative;
+  height: 123px;
 }
 
 .social {
@@ -93,8 +98,9 @@ nav .mobile-nav {
   justify-content: space-between;
 }
 
-.side_img {
+.side-image {
   position: absolute;
-  left: 243px;
-  top: 415px;
+  align-self: flex-end;
+  top: 370px;
+  right: -1px;
 }
