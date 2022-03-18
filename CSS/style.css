@@ -9,7 +9,7 @@ a {
 }
 
 ul li {
-  list-style: none;
+list-style: none;
 }
 
 body {
@@ -98,6 +98,7 @@ nav .mobile-nav {
   flex: 1;
   margin: 20px 0;
   justify-content: space-between;
+ 
 }
 
 .side-image {
