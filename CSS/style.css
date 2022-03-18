@@ -14,7 +14,8 @@ ul li {
 
 body {
   font-family: 'Roboto', serif;
-  /* height: auto; */
+  padding: 0;
+  height: auto;
   width: 100%;
 }
 
@@ -23,12 +24,18 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 15px 0;
+  width: 100%;
+}
+
+nav {
+  padding: 0 24px;
+  margin-top: 20px;
 }
 
 nav .mobile-nav {
   display: flex;
   justify-content: space-between;
-  margin: 12px 24px;
 }
 
 .name_logo {
@@ -42,17 +49,22 @@ nav .mobile-nav {
 }
 
 .menu-bar {
-  margin-top: 5px;
   width: 28px;
   height: 18px;
 }
 
 .container {
-  height: auto;
   background: #1c1a19;
+  padding: 120px 0;
+  width: 100%;
+}
+
+.landing-wrap {
+  height: auto;
   display: flex;
   flex-direction: column;
-  padding: 120px 24px;
+  position: relative;
+  margin: 0 23px;
   position: relative;
 }
 
@@ -64,7 +76,7 @@ nav .mobile-nav {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  width: 327px;
+  width: inherit;
 }
 
 .container h2 {
@@ -75,18 +87,15 @@ nav .mobile-nav {
   line-height: 32px;
   color: #fff5e1;
   margin: 12px 0;
-  width: 327px;
 }
 
 .container p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 26px;
   color: #fff;
-  width: 355px;
-  padding-right: 24px;
+  width: inherit;
 }
 
 .social {
@@ -102,6 +111,6 @@ nav .mobile-nav {
 .side-image {
   position: absolute;
   align-self: flex-end;
-  top: 320px;
+  top: 400px;
   right: -1px;
 }
