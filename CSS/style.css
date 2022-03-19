@@ -123,13 +123,13 @@ nav .mobile-nav {
 }
 
 .work-wrap {
-  margin: 0 23px;
+  margin: 0 24px;
   height: auto;
   display: flex;
   flex-direction: column;
 }
 
-.work-wrap h1 {
+.work-wrap h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 500;
@@ -142,7 +142,7 @@ nav .mobile-nav {
 
 .title-line {
   margin-top: 24px;
-  border: 1px solid #212121;
+  border: 1px solid #777171;
   width: auto;
 }
 
@@ -234,7 +234,6 @@ nav .mobile-nav {
 
 .work-card {
   height: auto;
-  width: inherit;
   margin: 24px 0;
   background-image: url('../Icons/work_placeholder.png');
   background-repeat: no-repeat;
@@ -264,12 +263,13 @@ nav .mobile-nav {
   line-height: 25px;
   margin-left: 18px;
   margin-right: 18px;
+  padding-top: 80px;
 }
 
 .work-card ul {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 70%;
   margin-left: 18px;
   margin-bottom: 10px;
   justify-content: space-between;
@@ -280,7 +280,7 @@ nav .mobile-nav {
   font-weight: lighter;
   font-size: 15px;
   line-height: 20px;
-  padding: 12px 12px;
+  padding: 10px 12px;
   margin: 12px 0;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
@@ -298,7 +298,6 @@ nav .mobile-nav {
   line-height: 24px;
   width: 100%;
   height: 48px;
-  letter-spacing: 1.3px;
 }
 
 .button:hover {
@@ -365,6 +364,23 @@ nav .mobile-nav {
   padding: 12px;
   letter-spacing: 0.03em;
   margin: 24px 0;
+}
+
+.about-button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  box-sizing: border-box;
+}
+
+.about-button:active {
+  background: #e05304;
+  color: inherit;
+}
+
+.about-button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
 }
 
 .side-image2 {
