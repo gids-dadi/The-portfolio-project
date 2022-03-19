@@ -116,7 +116,6 @@ nav .mobile-nav {
 
 .work-section {
   display: grid;
-  grid-template-columns: 1f;
   background: #fff;
   width: 100%;
   padding: 120px 0;
