@@ -227,11 +227,6 @@ nav .mobile-nav {
   color: #5b5957;
 }
 
-.work-wrap {
-  /* padding: 12px 0; */
-  /* margin: 0 24px; */
-}
-
 .work-card {
   height: auto;
   width: 100%;
@@ -410,7 +405,7 @@ nav .mobile-nav {
   color: #fff;
   text-align: center;
   letter-spacing: 3px;
-  margin: 8px 23px;
+  margin: 8px 20px;
 }
 
 .tech-competencies h3 {
