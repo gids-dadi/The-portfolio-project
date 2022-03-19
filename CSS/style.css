@@ -281,7 +281,7 @@ nav .mobile-nav {
 
 .about-me {
   background: #1c1a19;
-  padding: 120px 0;
+  padding: 100px 0;
   width: 100%;
 }
 
@@ -338,7 +338,7 @@ nav .mobile-nav {
   border: #b3afad solid 1px;
   height: 0;
   width: 100%;
-  margin: 160px 0;
+  margin: 160px 0 80px 0;
 }
 
 .tech-competencies {
