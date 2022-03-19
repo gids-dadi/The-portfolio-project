@@ -2,10 +2,9 @@
 
 # Description of the project.
 
-My personal portfolio project(mobile version). A clone of figma (template 2), it contains informtion about me.This exercise requires creating a repo, adding a .gitignore file, setting two different sections of the portfolio site and linters for HTML & CSS.
+My personal portfolio project(mobile version). A clone of figma (template 2), it contains informtion about me my previous works.This exercise requires creating a repo, adding a .gitignore file, setting two different sections of the portfolio site and linters for HTML & CSS.
 
 Built With: HTML and CSS
-
 
 ## Getting Started
 
