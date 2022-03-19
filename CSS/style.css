@@ -113,3 +113,103 @@ nav .mobile-nav {
   top: 400px;
   right: -1px;
 }
+
+.work-section {
+  background: #fff;
+  width: 100%;
+  padding: 120px 0;
+}
+
+.work-wrap {
+  margin: 0 23px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-wrap h1 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 50px 0;
+  height: 83px;
+  padding-top: 10px;
+}
+
+.title-line {
+  margin-top: 24px;
+  border: 1px solid #212121;
+  width: auto;
+}
+
+.work-hint {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.work-hint img {
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+}
+
+.work-hint h2 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  margin: 12px 0;
+}
+
+.work-hint p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  width: 100%;
+}
+
+.work-hint ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.work-hint ul li {
+  padding: 12px 10px;
+  border: #8993a4 solid 1px;
+  margin: 12px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+#hint-button {
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #edecff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: 17px;
+  line-height: 24px;
+  width: 140px;
+  height: 48px;
+  letter-spacing: 1.4px;
+}
+
+.work-cards {
+}
+
+.work-card1 {
+  background-image: url('Icons\work_placeholder.png');
+  border: red solid 2px;
+}
