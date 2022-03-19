@@ -227,17 +227,19 @@ nav .mobile-nav {
   color: #5b5957;
 }
 
-.work-cards {
-  padding: 12px 0;
+.work-wrap {
+  /* padding: 12px 0; */
+  /* margin: 0 24px; */
 }
 
 .work-card {
   height: auto;
-  margin: 24px 0;
+  width: 100%;
   background-image: url('../Icons/work_placeholder.png');
   background-repeat: no-repeat;
+  background-size: cover;
   border: none;
-  padding: 0;
+  margin: 24px 0;
 }
 
 .work-card h2 {
@@ -280,7 +282,7 @@ nav .mobile-nav {
   font-size: 15px;
   line-height: 20px;
   padding: 10px 12px;
-  margin: 12px 0;
+  margin: 10px 0;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
 }
@@ -398,31 +400,38 @@ nav .mobile-nav {
   border: #b3afad solid 1px;
   height: 0;
   width: 100%;
-  margin: 160px 0 80px 0;
+  margin: 190px 0 80px 0;
 }
 
 .tech-competencies {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   color: #fff;
-  letter-spacing: 2px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 8px 23px;
 }
 
 .tech-competencies h3 {
-  font-size: 30px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 700;
   margin: 28px;
 }
 
 .tech-competencies p {
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   margin: 28px;
 }
 
 .tech-competencies img {
-  margin: 0 15px;
+  width: 25px;
+  height: 25px;
+  margin: 0 18px;
+}
+
+.skills {
+  margin: 0;
 }
