@@ -14,7 +14,6 @@ ul li {
 
 body {
   font-family: 'Roboto', serif;
-  padding: 0;
   height: auto;
   width: 100%;
 }
@@ -141,6 +140,7 @@ nav .mobile-nav {
 
 .title-line {
   margin-top: 24px;
+  margin-bottom: 80px;
   border: 1px solid #777171;
   width: auto;
 }
@@ -401,32 +401,27 @@ nav .mobile-nav {
 .tech-competencies {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* align-items: center; */
   color: #fff;
   text-align: center;
   letter-spacing: 3px;
-  margin: 8px 20px;
+  margin: 60px 8px;
 }
 
 .tech-competencies h3 {
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
-  margin: 28px;
 }
 
-.tech-competencies p {
+.tech-competencies li {
   font-size: 24px;
-  text-align: center;
-  margin: 28px;
+  margin: 40px 0;
 }
 
 .tech-competencies img {
-  width: 25px;
-  height: 25px;
-  margin: 0 18px;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
 }
 
-.skills {
-  margin: 0;
-}
