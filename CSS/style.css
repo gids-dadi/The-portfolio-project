@@ -187,7 +187,7 @@ nav .mobile-nav {
   justify-content: space-between;
 }
 
-.work-hint ul li {
+.work-hint li {
   padding: 12px 10px;
   border: #8993a4 solid 1px;
   margin: 12px 0;
@@ -271,7 +271,7 @@ nav .mobile-nav {
   justify-content: space-between;
 }
 
-.work-card ul li {
+.work-card li {
   font-family: 'Inter', sans-serif;
   font-weight: lighter;
   font-size: 15px;
