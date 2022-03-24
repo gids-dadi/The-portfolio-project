@@ -1,0 +1,21 @@
+/* Media Queries for Desktop Screen - All scrren sizes within the range of 768px onwards. */
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 26px 154px;
+  }
+
+  nav .desktop-nav {
+    display: flex;
+  }
+
+  nav .desktop-nav a {
+    color: #fff;
+  }
+
+  /* Diabled Elements  in Desktop version*/
+  header .menu-bar {
+    display: none;
+  }
+}
