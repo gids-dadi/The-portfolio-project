@@ -540,3 +540,8 @@ footer {
   margin-bottom: 10px;
   align-self: center;
 }
+
+/*  Disabled elements in the mobile version */
+.desktop-nav {
+  display: none;
+}
