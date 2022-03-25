@@ -381,7 +381,7 @@
 
   .contact-wrap {
     margin-left: 135px;
-    margin-right: 142;
+    margin-right: 142px;
     display: flex;
   }
 
@@ -409,6 +409,7 @@
   }
 
   /* Diabled Elements  in Desktop version*/
+
   .menu-bar {
     display: none;
   }

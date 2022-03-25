@@ -16,7 +16,6 @@ body {
   font-family: 'Roboto', serif;
   height: auto;
   width: 100%;
-  /* overflow-x:hidden */
 }
 
 header {
@@ -386,7 +385,6 @@ nav .mobile-nav {
   right: -24px;
 }
 
-
 .text-line {
   border: #b3afad solid 1px;
   height: 0;
@@ -538,6 +536,7 @@ footer {
 }
 
 /*  Disabled elements in the mobile version */
+
 .desktop-nav {
   display: none;
 }
