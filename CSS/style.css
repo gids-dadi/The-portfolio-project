@@ -53,9 +53,11 @@ nav .mobile-nav {
 }
 
 .container {
+  display: flex;
   background: #1c1a19;
   padding: 120px 0;
   width: 100%;
+  background-image: none;
 }
 
 .landing-wrap {
@@ -183,7 +185,7 @@ nav .mobile-nav {
 .work-hint ul {
   display: flex;
   flex-direction: row;
-  width: 95%;
+  width: auto;
   justify-content: space-between;
 }
 
@@ -317,6 +319,7 @@ nav .mobile-nav {
   background: #1c1a19;
   padding: 100px 0;
   width: 100%;
+  background-image: none;
 }
 
 .about-text {
@@ -353,11 +356,11 @@ nav .mobile-nav {
   color: #edecff;
   text-align: center;
   border: none;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 15px;
   width: 161px;
   height: 48px;
-  padding: 12px;
+  padding: 10px;
   letter-spacing: 0.03em;
   margin: 24px 0;
 }
@@ -383,12 +386,6 @@ nav .mobile-nav {
   position: absolute;
   top: 240px;
   right: -24px;
-}
-
-.ellipse {
-  position: absolute;
-  top: 455px;
-  left: 222px;
 }
 
 .text-line {
@@ -540,3 +537,25 @@ footer {
   margin-bottom: 10px;
   align-self: center;
 }
+
+/*  Disabled elements in the mobile version */
+
+.desktop-nav {
+  display: none;
+}
+
+.large-side-image {
+  display: none;
+}
+
+.desktop-work-card {
+  display: none;
+}
+
+.desktop-side-image2 {
+  display: none;
+}
+
+/* .container-background {
+  display: none;
+} */
