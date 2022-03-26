@@ -34,8 +34,12 @@
   }
 
   .container {
+    display: flex;
     overflow: hidden;
     padding: 180px 0;
+    background-image: url('../Icons/large-image.png');
+    background-repeat: no-repeat;
+    background-position: right top;
     position: relative;
   }
 
@@ -44,6 +48,7 @@
     flex-direction: row;
     justify-content: stretch;
     align-items: center;
+    padding-bottom: 150px;
   }
 
   .landing-wrap-text {
@@ -51,20 +56,20 @@
     width: 100%;
   }
 
-  .container h1 {
+  .landing-wrap-text h1 {
     font-size: 5rem;
     line-height: 82px;
     width: 500px;
   }
 
-  .container h2 {
+  .landing-wrap-texth2 {
     font-size: 32px;
     line-height: 44px;
     color: #fff;
     margin: 24px 0;
   }
 
-  .container p {
+  .landing-wrap-text p {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
     line-height: 32px;
@@ -86,20 +91,12 @@
     margin: 8px;
   }
 
-  .large-side-image {
-    display: block;
-    position: absolute;
-    right: -10px;
-    top: -100px;
-  }
-
   .work-section {
     margin: 0 auto;
   }
 
   .work-wrap {
-    margin: 0 auto;
-    margin: 0 141px;
+    margin: 0 118px;
     position: relative;
   }
 
@@ -117,7 +114,7 @@
     height: 0;
     align-self: center;
     margin-left: 24px;
-    width: 65%;
+    width: 70%;
     margin-top: 60px;
     margin-right: auto;
   }
@@ -129,22 +126,29 @@
   }
 
   .work-hint {
+    /* display: flex; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
-    padding-top: 130px;
+    margin-top: 130px;
+    width: 100%;
+    height: auto;
   }
 
   .work-hint-img {
+    /* padding-right: 50px; */
     width: 100%;
+    height: auto;
     background-size: 100% 100%;
-    height: 448px;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 
   .work-hint-text {
     text-align: left;
-    padding-top: 0;
+    padding-bottom: 80px;
     width: 100%;
+    height: auto;
   }
 
   .work-hint h2 {
@@ -154,18 +158,23 @@
   }
 
   .work-hint p {
-    font-size: 19px;
+    width: auto;
+    font-size: 22px;
     line-height: 28px;
   }
 
   .work-hint ul {
-    width: 75%;
+    width: auto;
+    margin-right: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
+  #tech-lang li {
+    margin: 12px;
+  }
+
   .desktop-work-card {
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -258,7 +267,7 @@
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 38px;
     line-height: 44px;
     color: #fff;
   }
@@ -342,11 +351,12 @@
   }
 
   .about-me {
-    position: relative;
-  }
-
-  .about-text {
-    margin-left: 142px;
+    margin: 0 auto;
+    padding: 130px;
+    width: 100%;
+    background-image: url('../Icons/desktop-side-img2.png');
+    background-repeat: no-repeat;
+    background-position: top 80px right;
   }
 
   .about-text p {
@@ -374,19 +384,19 @@
   }
 
   .tech-competencies {
-    padding: 0 142px;
     flex-direction: row;
+    justify-content: flex-start;
     justify-content: space-between;
+    width: 80%;
   }
 
   .contact-wrap {
-    margin-left: 135px;
     margin-right: 142px;
     display: flex;
   }
 
   .contact-text {
-    width: 70%;
+    width: 48%;
     text-align: left;
     margin: 0 24px;
   }
@@ -428,5 +438,15 @@
 
   .footer-line {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    background-size: 50% 50%;
+  }
+
+  .about-me {
+    background-size: 50% 50%;
   }
 }
