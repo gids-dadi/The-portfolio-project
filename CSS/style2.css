@@ -170,10 +170,6 @@
     margin-bottom: 10px;
   }
 
-  #tech-lang li {
-    margin: 12px;
-  }
-
   .desktop-work-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -348,6 +344,10 @@
     margin: 10px 4px;
     color: #fff;
     background: rgba(255, 255, 255, 0.24);
+  }
+
+  #tech-lang li {
+    margin-right: 12px;
   }
 
   .about-me {
