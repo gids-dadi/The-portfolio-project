@@ -49,7 +49,7 @@ nav .mobile-nav {
 }
 
 .name_logo:hover {
-  /* transform: rotatez(20deg); */
+ transform: rotatez(20deg); 
 }
 
 .menu-bar {
