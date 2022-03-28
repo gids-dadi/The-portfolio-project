@@ -6,6 +6,9 @@ My personal portfolio project(mobile version). A clone of figma (template 2), it
 
 Built With: HTML and CSS
 
+#Live Demo 
+[Live Demo Link] (https://gids-dadi.github.io/The-portfolio-project/)
+
 ## Getting Started
 
 -Clone this repository to your desktop.
