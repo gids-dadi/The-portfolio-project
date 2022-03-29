@@ -30,6 +30,7 @@ header {
 nav {
   padding: 0 24px;
   margin-top: 20px;
+  transition: all 1s ease-in-out;
 }
 
 nav .mobile-nav {
@@ -45,6 +46,10 @@ nav .mobile-nav {
   line-height: 24px;
   width: 97px;
   height: 24px;
+}
+
+.name_logo:hover {
+ transform: rotatez(20deg); 
 }
 
 .menu-bar {
