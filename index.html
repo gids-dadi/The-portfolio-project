@@ -21,13 +21,23 @@
         <nav>
           <div class="mobile-nav">
             <a href="#" class="name_logo">Gidiz Logo</a>
-            <a href="#">
-              <img class="menu-bar" src="Icons/menu.png" alt="Menu"
-            /></a>
+
+            <div class="menu-toggle" id="menu-mobile">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <!-- <a href="#">
+            <button class="menu-bar" type="button">
+              <img class="menu-ba" src="Icons/menu.png" alt="Menu" />
+            </button>
+            </a> -->
           </div>
 
-          <div class="desktop-nav">
-            <ul>
+          <!-- <div class="desktop-nav"> -->
+          <div class="nav-message">
+            <ul class="nav-list">
               <li>
                 <a href="#works" class="nav-links portfolio-link">Portfolio</a>
               </li>
@@ -103,7 +113,7 @@
         </div>
       </section>
 
-      <section class="work-section">
+      <section class="work-section" id="works">
         <div class="work-wrap">
           <div class="heading-line">
             <h2>My Recent Works</h2>
@@ -309,7 +319,7 @@
         </div>
       </section>
 
-      <section class="about-me">
+      <section class="about-me" id="about-myself">
         <div class="about-text">
           <h2>About me</h2>
           <p>
@@ -369,7 +379,7 @@
         </div>
       </section>
 
-      <section class="contact-container">
+      <section class="contact-container" id="contact-me">
         <div class="contact-wrap">
           <div class="contact-text">
             <h3>
@@ -444,11 +454,14 @@ Enter Text here
             </a>
           </li>
           <li>
-            <a href="#"><img src="Icons/social2/medium.png" alt="Meduim icon" /> </a>
+            <a href="#"
+              ><img src="Icons/social2/medium.png" alt="Meduim icon" />
+            </a>
           </li>
         </ul>
         <div class="footer-line"></div>
       </footer>
     </main>
+    <script src="JS/menu.js"></script>
   </body>
 </html>

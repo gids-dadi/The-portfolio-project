@@ -2,28 +2,47 @@
 
 @media screen and (min-width: 768px) {
   header {
-    padding: 24px 142px;
+    padding: 12px 142px;
     justify-content: center;
   }
 
   nav {
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
 
-  .desktop-nav {
+  .nav-list {
+    position: relative;
     display: flex;
+    flex-direction: row;
     flex: 1;
     justify-content: flex-end;
-    width: 100%;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    top: 0;
+    padding: 0;
+    opacity: 1;
+    border: none;
+    z-index: 1;
   }
 
-  .desktop-nav ul {
+  .nav-list li {
+    border: none;
+  }
+
+  .nav-message {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
   }
 
-  .nav-links {
+  .nav-message img {
+    display: inline;
+  }
+
+  .nav-list a {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -31,6 +50,7 @@
     line-height: 20px;
     margin: 25px;
     color: #fff;
+    padding: 0;
   }
 
   .container {
@@ -421,6 +441,10 @@
   /* Diabled Elements  in Desktop version */
 
   .menu-bar {
+    display: none;
+  }
+
+  .menu-toggle {
     display: none;
   }
 
