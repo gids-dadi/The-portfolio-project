@@ -46,6 +46,9 @@ nav .mobile-nav {
   width: 97px;
   height: 24px;
 }
+.name_logo.closeLogo{
+  display: none;
+}
 
 .menu-toggle {
   cursor: pointer;
@@ -61,7 +64,7 @@ nav .mobile-nav {
 }
 
 /* Toggles the hamburger menu */
-header .menu-toggle.is-active .bar:nth-child(2) {
+/* header .menu-toggle.is-active .bar:nth-child(2) {
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -70,6 +73,9 @@ header .menu-toggle.is-active .bar:nth-child(1) {
   transform: translateY(12px) rotate(45deg);
   z-index: 2;
   transition: all 0.5s ease-in-out;
+  position: fixed;
+  top: 5%;
+  right: 10%;
 }
 
 header .menu-toggle.is-active .bar:nth-child(3) {
@@ -78,7 +84,10 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   background: #fff;
   margin-top: 20px;
   z-index: 2;
-}
+  position: fixed;
+  top: 5%;
+  right: 10%;
+} */
 
 .nav-list {
   position: absolute;
@@ -88,6 +97,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   width: 100%;
   height: 90vh;
   padding: 30px 28px;
+  /* margin-top: 0; */
   top: 10vh;
   left: 0;
   opacity: 0;
@@ -112,9 +122,18 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 }
 
 .nav-list.active {
+  position: fixed;
+  top: 5%;
+  right: 5%;
   background-color: #3c3a39;
+  background: url('../Icons/Enabled.png');
+  background-repeat: no-repeat;
+  background-position: top 0% right 10%;
+  background-size: 25px;
   opacity: 1;
   z-index: 10;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
