@@ -46,6 +46,7 @@ nav .mobile-nav {
   width: 97px;
   height: 24px;
 }
+
 .name_logo.closeLogo {
   visibility: hidden;
 }
@@ -608,9 +609,6 @@ footer {
 }
 
 /*  Disabled elements in the mobile version */
-/* .nav-message {
-  display: ;
-} */
 
 .large-side-image {
   display: none;
