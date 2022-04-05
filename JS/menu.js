@@ -1,12 +1,11 @@
 const hamburger = document.querySelector('#menu-mobile');
 const menuLinks = document.querySelector('.nav-list');
-const logoClass = document.querySelector('.name_logo')
+const logoClass = document.querySelector('.name_logo');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('is-active');
   menuLinks.classList.toggle('active');
-  logoClass.classList.toggle('closeLogo')
-  
+  logoClass.classList.toggle('closeLogo');
 });
 
 const portfolio = document.querySelector('.portfolio-link');
