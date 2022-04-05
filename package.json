@@ -8,21 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmaduKamara/portfolio.git"
+    "url": "git+https://github.com/gids-dadi/The-portfolio-project.git"
   },
   "keywords": [
-    "Amkam",
-    "Amadu",
+    "Gideon",
+    "Dadi",
     "Portfolio",
-    "site",
-    "WebAvenger"
+    "site"
   ],
-  "author": "AmaDU Kamara / WebAvenger",
+  "author": "Gideon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AmaduKamara/portfolio/issues"
+    "url": "https://github.com/gids-dadi/The-portfolio-project/issues"
   },
-  "homepage": "https://github.com/AmaduKamara/portfolio#readme",
+  "homepage": "https://github.com/gids-dadi/The-portfolio-project#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
