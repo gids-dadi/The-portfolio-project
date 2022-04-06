@@ -41,15 +41,85 @@ nav .mobile-nav {
   color: #fff;
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   width: 97px;
   height: 24px;
 }
 
-.menu-bar {
-  width: 28px;
-  height: 18px;
+.name_logo.closeLogo {
+  visibility: hidden;
+}
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+.menu-toggle .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px auto;
+  transition: all 0.5s ease-in-out;
+  display: block;
+}
+
+/* Toggles the hamburger menu */
+header .menu-toggle.is-active .bar:nth-child(2) {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+header .menu-toggle.is-active .bar:nth-child(1) {
+  transform: translateY(12px) rotate(45deg);
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+
+header .menu-toggle.is-active .bar:nth-child(3) {
+  transform: translateY(-20px) rotate(-45deg);
+  transition: all 0.5s ease-in-out;
+  background: #fff;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.nav-list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #3c3a39;
+  width: 100%;
+  height: 90vh;
+  padding: 30px 28px;
+  top: 10vh;
+  left: 0;
+  opacity: 0;
+  z-index: 100;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-list li {
+  margin: 10px 0;
+  padding: 8px;
+  border-bottom: #6f6c6b solid 1px;
+}
+
+.nav-list a {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  line-height: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.nav-list.active {
+  background-color: #3c3a39;
+  opacity: 1;
+  z-index: 10;
 }
 
 .container {
@@ -156,7 +226,7 @@ nav .mobile-nav {
 .work-hint-img {
   background-image: url('../Icons/work_img.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   width: 100%;
   height: 237px;
@@ -540,10 +610,6 @@ footer {
 
 /*  Disabled elements in the mobile version */
 
-.desktop-nav {
-  display: none;
-}
-
 .large-side-image {
   display: none;
 }
@@ -556,6 +622,6 @@ footer {
   display: none;
 }
 
-/* .container-background {
+.nav-message img {
   display: none;
-} */
+}

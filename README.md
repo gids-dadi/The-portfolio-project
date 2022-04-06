@@ -2,11 +2,16 @@
 
 # Description of the project.
 
-My personal portfolio project(mobile version). A clone of figma (template 2), it contains informtion about me my previous works.This exercise requires creating a repo, adding a .gitignore file, setting two different sections of the portfolio site and linters for HTML & CSS.
+My personal portfolio project(mobile version and desktop). A clone of figma (template 2), it contains informtion about me my previous works.This exercise requires creating a repo, adding a .gitignore file, setting different sections of the portfolio site and linters for HTML & CSS.
 
-Built With: HTML and CSS
+Built With:
+-HTML
 
-#Live Demo 
+- CSS
+
+- ESLint
+
+#Live Demo
 [Live Demo Link] (https://gids-dadi.github.io/The-portfolio-project/)
 
 ## Getting Started
@@ -17,7 +22,7 @@ Built With: HTML and CSS
 
 👤 Gideon Dadi
 
--Linkedin [@Gideon Dadi] (https://www.linkedin.com/feed/)
+-Linkedin [@GideonDadi] (https://www.linkedin.com/feed/)
 
 - GitHub: [@gids_dadi](https://github.com/gids-dadi)
 - Twitter: [@Dadi_AG](https://twitter.com/Dadi_AG)
@@ -35,4 +40,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT]("./MIT.md") licensed.
