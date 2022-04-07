@@ -197,6 +197,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   height: auto;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .work-wrap h2 {
@@ -266,7 +267,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   font-family: 'Inter', sans-serif;
 }
 
-#hint-button {
+.hint-button {
   background-color: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
