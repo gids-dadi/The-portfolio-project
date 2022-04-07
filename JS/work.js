@@ -35,8 +35,8 @@ openWorkHintModal.addEventListener('click', (e) => {
   document.querySelector('.work-hint-stack2').textContent = Bootstrap;
   document.querySelector('.work-hint-stack3').textContent = Rubyonrails;
   document.querySelector('.work-hint-placeholder').src = workHintFeaturedImage;
-  document.querySelector('.work-hint-description').textContent =
-    workDescription;
+  document.querySelector('.work-hint-description').textContent =workDescription;
+  
   document.getElementById('blur').style.filter = 'blur(5px)';
   workHintContainer.classList.add('active');
 });

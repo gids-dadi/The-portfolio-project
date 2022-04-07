@@ -78,11 +78,6 @@
 }
 
 .work-hint-placeholder {
-  width: 100%;
-  margin: 0px 16px;
-}
-
-.work-hint-placeholder {
   width: 90%;
   height: auto;
 }
@@ -96,7 +91,6 @@
   color: #344563;
   opacity: 0.8;
   margin: 0 16px;
-  margin-bottom: 16px;
 }
 
 .d-links {
@@ -188,7 +182,7 @@
     width: 11vw;
   }
 
-  #icon {
+  .icon {
     margin-top: -2px;
   }
 
