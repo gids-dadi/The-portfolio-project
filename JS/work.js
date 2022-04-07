@@ -17,7 +17,7 @@ const closeWorkHintModal = document.querySelector('#work-hint-modal-close');
 
 openWorkHintModal.addEventListener('click', (e) => {
   const workHint = works.find(
-    (work) => work.id === parseInt(e.currentTarget.dataset.id, 10),
+    (work) => work.id === parseInt(e.currentTarget.dataset.id, 10)
   );
 
   const {
@@ -35,8 +35,7 @@ openWorkHintModal.addEventListener('click', (e) => {
   document.querySelector('.work-hint-stack2').textContent = Bootstrap;
   document.querySelector('.work-hint-stack3').textContent = Rubyonrails;
   document.querySelector('.work-hint-placeholder').src = workHintFeaturedImage;
-  document.querySelector('.work-hint-description').textContent =
-    workDescription;
+  document.querySelector('.work-hint-descript').textContent = workDescription;
   document.getElementById('blur').style.filter = 'blur(5px)';
   workHintContainer.classList.add('active');
 });
