@@ -17,7 +17,8 @@ const closeWorkHintModal = document.querySelector('#work-hint-modal-close');
 
 openWorkHintModal.addEventListener('click', (e) => {
   const workHint = works.find(
-    (work) => work.id === parseInt(e.currentTarget.dataset.id, 10));
+    (work) => work.id === parseInt(e.currentTarget.dataset.id, 10),
+    );
   const {
     name: workName,
     name2: workName2,
