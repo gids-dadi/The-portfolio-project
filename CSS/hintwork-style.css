@@ -78,8 +78,9 @@
 }
 
 .work-hint-placeholder {
-  width: 90%;
+  width: auto;
   height: auto;
+  margin: 0 16px;
 }
 
 .work-hint-modal p {
@@ -165,14 +166,12 @@
     text-align: center;
     text-decoration: none;
     border: none;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
-    width: 70%;
+    width: 34vw;
     margin: 20px;
     height: 48px;
     letter-spacing: 1.3px;
-    padding: 8px;
-    align-items: flex-start;
   }
 
   .d-links a span {
