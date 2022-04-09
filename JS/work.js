@@ -1,106 +1,119 @@
 const cardDetails = [
-{
-  title: 'Multi-Post Stories',
-popTitle: 'Keeping track of hundreds of components',
-cardText: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-  popDescription: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  {
+    title: 'Multi-Post Stories',
+    popTitle: 'Keeping track of hundreds of components',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    popDescription:
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     technologies: ['html', 'bootstrap', 'Ruby'],
-  popTech: ['css', 'html', 'bootstrap', 'Ruby'],
-  imagePlaceholder:  '../Icons/work_img.png',
-  imagePopup: '../icons/pop_image.png ',
-  seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
-  seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
+    popTech: ['css', 'html', 'bootstrap', 'Ruby'],
+    imagePlaceholder: '../Icons/work_img.png',
+    imagePopup: '../icons/pop_image.png ',
+    seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
+    seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
+  },
 
-},
+  {
+    title: 'Profesional Art Printing Data',
+    popTitle: 'Keeping track of hundreds of components',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    popDescription:
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    popTech: ['css', 'html', 'bootstrap', 'Ruby'],
+    imagePlaceholder: '../Icons/work_placeholder.png',
+    image2Placeholder: '../Icons/workcard1-img.png',
+    imagePopup: '../icons/pop_image.png ',
+    seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
+    seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
+  },
 
-{
-title: 'Profesional Art Printing Data',
-popTitle: 'Keeping track of hundreds of components',
-cardText: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-   popDescription: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  technologies: ['html', 'bootstrap', 'Ruby' ],
-  popTech: ['css', 'html', 'bootstrap', 'Ruby' ],
-  imagePlaceholder:  '../Icons/work_placeholder.png',
-  image2Placeholder:  '../Icons/workcard1-img.png',
-  imagePopup: '../icons/pop_image.png ',
-  seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
-  seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
-},
+  {
+    title: 'Profesional Art Printing Data',
+    title2: 'Data Dashboard Healthcare',
+    popTitle: 'Keeping track of hundreds of components',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    popDescription:
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    popTech: ['css', 'html', 'bootstrap', 'Ruby'],
+    imagePlaceholder: '../Icons/work_placeholder.png',
+    image2Placeholder: '../Icons/workcard3-img.png',
+    imagePopup: '../icons/pop_image.png ',
+    seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
+    seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
+  },
 
-{
-title: 'Profesional Art Printing Data',
-title2: 'Data Dashboard Healthcare',
-popTitle: 'Keeping track of hundreds of components',
-cardText: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-   popDescription: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  technologies: ['html', 'bootstrap', 'Ruby' ],
-  popTech: ['css', 'html', 'bootstrap', 'Ruby' ],
-  imagePlaceholder:  '../Icons/work_placeholder.png',
-    image2Placeholder:  '../Icons/workcard3-img.png',
-  imagePopup: '../icons/pop_image.png ',
-  seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
-  seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
-},
-
-{
-title: 'Profesional Art Printing Data',
-popTitle: 'Keeping track of hundreds of components',
-cardText: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-   popDescription: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  technologies: ['html', 'bootstrap', 'Ruby' ],
-  popTech: ['css', 'html', 'bootstrap', 'Ruby' ],
-  imagePlaceholder:  '../Icons/work_placeholder.png',
-  imagePopup: '../icons/pop_image.png ',
-  seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
-  seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
-},
-{
-title: 'Profesional Art Printing Data',
-popTitle: 'Keeping track of hundreds of components',
-cardText: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    popDescription: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  technologies: ['html', 'bootstrap', 'Ruby' ],
-  popTech: ['css', 'html', 'bootstrap', 'Ruby' ],
-  imagePlaceholder:  '../Icons/work_placeholder.png',
-  imagePopup: '../icons/pop_image.png ',
-  seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
-  seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
-},
-{
-title: 'Profesional Art Printing Data',
-popTitle: 'Keeping track of hundreds of components',
-cardText: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-   popDescription: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  technologies: ['html', 'bootstrap', 'Ruby' ],
-  popTech: ['css', 'html', 'bootstrap', 'Ruby' ],
-  imagePlaceholder:  '../Icons/work_placeholder.png',
-      image2Placeholder:  '../Icons/workcard2-img.png',
-  imagePopup: '../icons/pop_image.png ',
-  seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
-  seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
-},
-{
-title: 'Profesional Art Printing Data',
-popTitle: 'Keeping track of hundreds of components',
-cardText: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-   popDescription: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-  technologies: ['html', 'bootstrap', 'Ruby' ],
-  popTech: ['css', 'html', 'bootstrap', 'Ruby' ],
-  imagePlaceholder:  '../Icons/work_placeholder.png',
-      image2Placeholder:  '../Icons/workcard3-img.png',
-  imagePopup: '../icons/pop_image.png ',
-  seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
-  seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
-}
+  {
+    title: 'Profesional Art Printing Data',
+    popTitle: 'Keeping track of hundreds of components',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    popDescription:
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    popTech: ['css', 'html', 'bootstrap', 'Ruby'],
+    imagePlaceholder: '../Icons/work_placeholder.png',
+    imagePopup: '../icons/pop_image.png ',
+    seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
+    seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
+  },
+  {
+    title: 'Profesional Art Printing Data',
+    popTitle: 'Keeping track of hundreds of components',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    popDescription:
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    popTech: ['css', 'html', 'bootstrap', 'Ruby'],
+    imagePlaceholder: '../Icons/work_placeholder.png',
+    imagePopup: '../icons/pop_image.png ',
+    seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
+    seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
+  },
+  {
+    title: 'Profesional Art Printing Data',
+    popTitle: 'Keeping track of hundreds of components',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    popDescription:
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    popTech: ['css', 'html', 'bootstrap', 'Ruby'],
+    imagePlaceholder: '../Icons/work_placeholder.png',
+    image2Placeholder: '../Icons/workcard2-img.png',
+    imagePopup: '../icons/pop_image.png ',
+    seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
+    seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
+  },
+  {
+    title: 'Profesional Art Printing Data',
+    popTitle: 'Keeping track of hundreds of components',
+    cardText:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    popDescription:
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    popTech: ['css', 'html', 'bootstrap', 'Ruby'],
+    imagePlaceholder: '../Icons/work_placeholder.png',
+    image2Placeholder: '../Icons/workcard3-img.png',
+    imagePopup: '../icons/pop_image.png ',
+    seeLive: 'https://gids-dadi.github.io/The-portfolio-project/',
+    seeSource: 'https://github.com/gids-dadi/The-portfolio-project',
+  },
 ];
 
-for (let i = 0; i < 1; i+=1) {
-let techList = '';
+for (let i = 0; i < 1; i += 1) {
+  let techList = '';
   for (let j = 0; j < cardDetails[0].technologies.length; j += 1) {
     techList += `<li>${cardDetails[0].technologies[j]}</li>`;
   }
-// The single first card
-document.querySelector('.workHint').innerHTML = `
+  // The single first card
+  document.querySelector('.workHint').innerHTML = `
 <div class='work-hint'>
 <div class='work-hint-img'></div>
  <div class="work-hint-text">
@@ -119,17 +132,17 @@ document.querySelector('.workHint').innerHTML = `
                See Project
              </button>
                 </div>  
-               </div>`; 
+               </div>`;
 }
 
 // The rest of the cards
 for (let i = 1; i < cardDetails.length; i += 1) {
   const cards = 1;
   let tech = '';
-  for (let  j = 0; j < cardDetails[0].technologies.length; j += 1) {
+  for (let j = 0; j < cardDetails[0].technologies.length; j += 1) {
     tech += `<li>${cardDetails[i].technologies[j]}</li>`;
   }
-  document.querySelector('#myWorks').innerHTML+=`
+  document.querySelector('#myWorks').innerHTML += `
   <div class="workCards">
             <div class="headline">
               <h2>${cardDetails[i].title}</h2>
@@ -150,10 +163,10 @@ for (let i = 1; i < cardDetails.length; i += 1) {
 for (let i = 1; i < cardDetails.length; i += 1) {
   const cards = 1;
   let tech = '';
-  for (let  j = 0; j < cardDetails[0].technologies.length; j += 1) {
+  for (let j = 0; j < cardDetails[0].technologies.length; j += 1) {
     tech += `<li>${cardDetails[i].technologies[j]}</li>`;
   }
-  document.querySelector('.desktopCards').innerHTML+=`
+  document.querySelector('.desktopCards').innerHTML += `
   <div class="workCards">
               <h2>${cardDetails[i].title}</h2>
               <p>
@@ -171,11 +184,11 @@ for (let i = 1; i < cardDetails.length; i += 1) {
 //  ----display popup modal---
 const popupModal = document.querySelector('#popModal');
 const displayPopupModal = (i) => {
-    let tech = '';
-    for (let j =0; j < cardDetails[i].technologies.length; j +=1){
-      tech += `<li>${cardDetails[i].technologies[j]}</li>`;
-    }
-popupModal.innerHTML = `
+  let tech = '';
+  for (let j = 0; j < cardDetails[i].technologies.length; j += 1) {
+    tech += `<li>${cardDetails[i].technologies[j]}</li>`;
+  }
+  popupModal.innerHTML = `
     <div class="works-popup">
                 <div class="pop-title">
                         <h2>${cardDetails[i].title}</h2>
@@ -221,11 +234,17 @@ popupModal.innerHTML = `
         </div>
       </div>
     </div>`;
-    popupModal.style.display = 'block';
+  popupModal.style.display = 'block';
 };
 
 // Open
-document.querySelectorAll('.works-button').forEach((row) => row.addEventListener('click', () => displayPopupModal(row.getAttribute('data-index'))));
+document
+  .querySelectorAll('.works-button')
+  .forEach((row) =>
+    row.addEventListener('click', () =>
+      displayPopupModal(row.getAttribute('data-index'))
+    )
+  );
 
 // close pop
 const closeModal = document.querySelector('#portfolioPopup');

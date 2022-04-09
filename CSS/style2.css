@@ -105,7 +105,7 @@
   }
 
   .work-section {
-        margin: 0 118px;
+    margin: 0 118px;
   }
 
   .work-wrap h2 {
@@ -128,9 +128,9 @@
     height: auto;
     padding-bottom: 30px;
     background-image: url('../Icons/work_img.png');
-     background-size: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
   }
 
   .work-hint-text {
@@ -159,107 +159,107 @@
     margin-bottom: 10px;
   }
 
-.desktopCards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 24px;
-  grid-row-gap: 37px;
-  align-items: center;
-  justify-content: center;
-  margin-top: 24px;
-  width: 100%;
-  height: auto; 
+  .desktopCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 37px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
   }
 
-.workCards:nth-child(1)  {
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-width: 100%;
-height: 100%;
-background-image: url('../Icons/workcard1-img.png');
-background-repeat: no-repeat; 
-background-size: cover;
-border: black solid 1px;
-}
+  .workCards:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Icons/workcard1-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black solid 1px;
+  }
 
-.workCards:nth-child(1) h2  {
-  display: none;
-}
-
-.workCards:nth-child(1) p {
+  .workCards:nth-child(1) h2 {
     display: none;
-}
+  }
 
-.workCards:nth-child(1) ul {
+  .workCards:nth-child(1) p {
     display: none;
-}
+  }
 
-.workCards:nth-child(2) {
-display: flex;
-flex-direction: column;
-  justify-content: flex-end;
- width: 100%;
-  height: 100%;
-  background-image: url('../Icons/workcard2-img.png');
+  .workCards:nth-child(1) ul {
+    display: none;
+  }
+
+  .workCards:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Icons/workcard2-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
-}
+  }
 
-.workCards:nth-child(3n) {
-display: flex;
-flex-direction: column;
-  justify-content: flex-end;
- width: 100%;
-  height: 100%;
+  .workCards:nth-child(3n) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
     background-image: url('../Icons/workcard3-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
-}
+  }
 
-.workCards:nth-child(4) {
-display: flex;
-flex-direction: column;
-  justify-content: flex-end;
- width: 100%;
-  height: 100%;
+  .workCards:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
     background-image: url('../Icons/workcard4-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
-}
+  }
 
-.workCards:nth-child(5) {
-display: flex;
-flex-direction: column;
-  justify-content: flex-end;
- width: 100%;
-  height: 100%;
-  background-image: url('../Icons/workcard2-img.png');
+  .workCards:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Icons/workcard2-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
-}
+  }
 
-.workCards:nth-child(2)  button {
-  display: none;
-}
-
-.workCards:nth-child(3n) button { 
-  display: none;
-}
-
-.workCards:nth-child(4) button {
-  display: none;
-}
-.workCards:nth-child(5) button {
+  .workCards:nth-child(2) button {
     display: none;
-}
+  }
 
- .about-me {
+  .workCards:nth-child(3n) button {
+    display: none;
+  }
+
+  .workCards:nth-child(4) button {
+    display: none;
+  }
+  .workCards:nth-child(5) button {
+    display: none;
+  }
+
+  .about-me {
     margin: 0 auto;
     padding: 130px;
     width: 100%;
