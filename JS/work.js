@@ -245,3 +245,23 @@ const closeModal = document.querySelector('#portfolioPopup');
 const closePopupModal = () => {
   closeModal.style.display = 'none';
 };
+
+// Validation
+const emailInputField = document.getElementById('email');
+const formElement = document.getElementById('contact-form');
+const displayErrorElement = document.getElementById('display-error');
+
+displayErrorElement.innerHTML = 'The email Field must be in lowercase!!!';
+
+formElement.addEventListener('submit', (event) => {
+  if (emailInputField.value !== emailInputField.value.toLowerCase()) {
+    event.preventDefault();
+    displayErrorElement.style.display = 'block';
+    displayErrorElement.classList.add('displayErrorMessage');
+    setTimeout(() => {
+      displayErrorElement.style.display = 'none';
+    }, 4000);
+  } else {
+    displayErrorElement.style.display = 'none';
+  }
+});

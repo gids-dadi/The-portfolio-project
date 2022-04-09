@@ -183,6 +183,7 @@
           </div>
 
           <form
+            id="contact-form"
             class="mobile-screen-form"
             action="https://formspree.io/f/mzbovngz"
             method="POST"
@@ -199,13 +200,13 @@
               </li>
               <li>
                 <input
+                  id="email"
                   type="email"
                   name="email"
                   placeholder="Email address"
                   required
                 />
               </li>
-
               <li>
                 <textarea
                   rows="10"
@@ -220,6 +221,7 @@ Enter Text here
                 >
               </li>
             </ul>
+            <span id="display-error"></span>
             <button class="contact-button" type="submit">Get in touch</button>
           </form>
         </div>
@@ -256,7 +258,7 @@ Enter Text here
         <div class="footer-line"></div>
       </footer>
     </main>
-    <section id="popModal" class="portfolioModal"></section>
+    <div id="popModal" class="portfolioModal"></div>
     <script src="JS/menu.js"></script>
     <script src="JS/work.js"></script>
   </body>
