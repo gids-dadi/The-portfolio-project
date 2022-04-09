@@ -181,7 +181,7 @@ for (let i = 1; i < cardDetails.length; i += 1) {
 
 //  ----display popup modal---
 const popupModal = document.querySelector('#popModal');
-const displayPopupModal = (i) => {
+const displayPopup = (i) => {
   let tech = '';
   for (let j = 0; j < cardDetails[i].technologies.length; j += 1) {
     tech += `<li>${cardDetails[i].technologies[j]}</li>`;
@@ -240,8 +240,7 @@ const displayPopupModal = (i) => {
 document
   .querySelectorAll('.works-button')
   .forEach((row) =>
-    row.addEventListener('click', () =>
-      displayPopupModal(row.getAttribute('data-index'))
+    row.addEventListener('click', () =>displayPopup(row.getAttribute('data-index'))
     )
   );
 
@@ -249,6 +248,6 @@ document
 
 const closeModal = document.querySelector('#portfolioPopup');
 // eslint-disable-next-line no-unused-vars
-const closePopupModal = () => {
+const closePopup = () => {
   closeModal.style.display = 'none';
 };
