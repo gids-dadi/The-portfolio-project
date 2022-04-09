@@ -293,19 +293,19 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   letter-spacing: 1.3px;
 }
 
-#hint-button:hover {
+.hint-button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
   box-sizing: border-box;
 }
 
-#hint-button:active {
+.hint-button:active {
   background: #e05304;
   color: inherit;
 }
 
-#hint-button:disabled {
+.hint-button:disabled {
   background: #f4f1f0;
   color: #5b5957;
 }
