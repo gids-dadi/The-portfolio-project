@@ -383,7 +383,8 @@
           </div>
 
           <form
-            class="mobile-screen-form"
+            class="contact-form"
+            id="contact-form"
             action="https://formspree.io/f/mzbovngz"
             method="POST"
           >
@@ -400,6 +401,7 @@
               <li>
                 <input
                   type="email"
+                  id="email"
                   name="email"
                   placeholder="Email address"
                   required
@@ -420,8 +422,11 @@ Enter Text here
                 >
               </li>
             </ul>
+            <span id="display-error"></span>
             <button class="contact-button" type="submit">Get in touch</button>
           </form>
+
+          
         </div>
       </section>
 
