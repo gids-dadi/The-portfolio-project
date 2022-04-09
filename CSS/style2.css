@@ -82,12 +82,6 @@
     width: 500px;
   }
 
-  .landing-wrap-texth2 {
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-    margin: 24px 0;
-  }
 
   .landing-wrap-text p {
     font-family: 'Inter', sans-serif;
@@ -112,31 +106,7 @@
   }
 
   .work-section {
-    margin: 0 auto;
-  }
-
-  .work-wrap {
-    margin: 0 118px;
-    position: relative;
-  }
-
-  .heading-line {
-    display: flex;
-    align-items: center;
-    top: -140px;
-    width: 100%;
-    height: 52px;
-    margin-top: 130px;
-    position: absolute;
-  }
-
-  .title-line {
-    height: 0;
-    align-self: center;
-    margin-left: 24px;
-    width: 70%;
-    margin-top: 60px;
-    margin-right: auto;
+        margin: 0 118px;
   }
 
   .work-wrap h2 {
@@ -157,9 +127,11 @@
   .work-hint-img {
     width: 100%;
     height: auto;
-    background-size: 100% 100%;
+    padding-bottom: 30px;
+    background-image: url('../Icons/work_img.png');
+     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; 
   }
 
   .work-hint-text {
@@ -188,8 +160,8 @@
     margin-bottom: 10px;
   }
 
-  .desktop-work-card {
-    display: grid;
+.desktopCards {
+  display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 24px;
@@ -198,177 +170,97 @@
     justify-content: center;
     margin-top: 24px;
     width: 100%;
-    height: auto;
+    height: auto; 
   }
 
-  .work-card1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
-    height: 369px;
-    background-image: url('../Icons/workcard1-img.png');
-    background-repeat: no-repeat;
+.workCards:nth-child(1)  {
+display: flex;
+flex-direction: column;
+  justify-content: flex-end;
+ width: 100%;
+  height: 100%;
+  background-image: url('../Icons/workcard1-img.png');
+     background-repeat: no-repeat; 
     background-size: cover;
     border: black solid 1px;
-  }
+}
 
-  .work-card2 {
-    width: 100%;
-    height: auto;
-    background-image: url('../Icons/workcard2-img.png');
+.workCards:nth-child(1) h2  {
+  display: none;
+}
+
+.workCards:nth-child(1) p {
+    display: none;
+}
+
+.workCards:nth-child(1) ul {
+    display: none;
+}
+
+.workCards:nth-child(2) {
+display: flex;
+flex-direction: column;
+  justify-content: flex-end;
+ width: 100%;
+  height: 100%;
+  background-image: url('../Icons/workcard2-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
-    padding-top: 158px;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: flex;
-    flex-direction: column;
-  }
+}
 
-  .work-card2 h3 {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-  }
-
-  .work-card2 p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: 20px;
-    color: #fff;
-  }
-
-  .work-card2 ul {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    justify-content: space-between;
-  }
-
-  .work-card2 li {
-    font-family: 'Inter', sans-serif;
-    font-weight: lighter;
-    font-size: 12px;
-    line-height: 20px;
-    padding: 10px;
-    margin: 10px 4px;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.24);
-  }
-
-  .work-card3 {
-    width: 100%;
-    height: auto;
+.workCards:nth-child(3n) {
+display: flex;
+flex-direction: column;
+  justify-content: flex-end;
+ width: 100%;
+  height: 100%;
     background-image: url('../Icons/workcard3-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
-    padding-top: 200px;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: flex;
-    flex-direction: column;
-  }
+}
 
-  .work-card3 h3 {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 44px;
-    color: #fff;
-  }
-
-  .work-card3 p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: 20px;
-    color: #fff;
-  }
-
-  .work-card3 ul {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    justify-content: space-between;
-  }
-
-  .work-card3 li {
-    font-family: 'Inter', sans-serif;
-    font-weight: lighter;
-    font-size: 12px;
-    line-height: 20px;
-    padding: 10px;
-    margin: 10px 4px;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.24);
-  }
-
-  .work-card4 {
-    width: 100%;
-    height: auto;
+.workCards:nth-child(4) {
+display: flex;
+flex-direction: column;
+  justify-content: flex-end;
+ width: 100%;
+  height: 100%;
     background-image: url('../Icons/workcard4-img.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100% 100%;
     border: none;
-    padding-top: 158px;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: flex;
-    flex-direction: column;
-  }
+}
 
-  .work-card4 h3 {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-  }
+.workCards:nth-child(5) {
+display: flex;
+flex-direction: column;
+  justify-content: flex-end;
+ width: 100%;
+  height: 100%;
+  background-image: url('../Icons/workcard2-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
 
-  .work-card4 p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: 20px;
-    color: #fff;
-  }
+.workCards:nth-child(2)  button {
+  display: none;
+}
 
-  .work-card4 ul {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    justify-content: space-between;
-  }
+.workCards:nth-child(3n) button { 
+  display: none;
+}
 
-  .work-card4 li {
-    font-family: 'Inter', sans-serif;
-    font-weight: lighter;
-    font-size: 12px;
-    line-height: 20px;
-    padding: 10px;
-    margin: 10px 4px;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.24);
-  }
+.workCards:nth-child(4) button {
+  display: none;
+}
+.workCards:nth-child(5) button {
+    display: none;
+}
 
-  #tech-lang li {
-    margin-right: 12px;
-  }
-
-  .about-me {
+ .about-me {
     margin: 0 auto;
     padding: 130px;
     width: 100%;
@@ -454,13 +346,21 @@
     display: none;
   }
 
-  .work-card {
+  /* .work-card {
     display: none;
-  }
+  } */
 
   .footer-line {
     display: none;
   }
+
+  .headline {
+    display: none;
+  }
+
+  /* .workCards {
+    display: none;
+  } */
 }
 
 @media screen and (max-width: 1300px) {
