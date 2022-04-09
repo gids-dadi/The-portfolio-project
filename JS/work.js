@@ -137,7 +137,6 @@ for (let i = 0; i < 1; i += 1) {
 
 // The rest of the cards
 for (let i = 1; i < cardDetails.length; i += 1) {
-  const cards = 1;
   let tech = '';
   for (let j = 0; j < cardDetails[0].technologies.length; j += 1) {
     tech += `<li>${cardDetails[i].technologies[j]}</li>`;
@@ -161,7 +160,6 @@ for (let i = 1; i < cardDetails.length; i += 1) {
 }
 
 for (let i = 1; i < cardDetails.length; i += 1) {
-  const cards = 1;
   let tech = '';
   for (let j = 0; j < cardDetails[0].technologies.length; j += 1) {
     tech += `<li>${cardDetails[i].technologies[j]}</li>`;
@@ -238,6 +236,7 @@ const displayPopupModal = (i) => {
 };
 
 // Open
+
 document
   .querySelectorAll('.works-button')
   .forEach((row) =>
@@ -247,6 +246,7 @@ document
   );
 
 // close pop
+
 const closeModal = document.querySelector('#portfolioPopup');
 // eslint-disable-next-line no-unused-vars
 const closePopupModal = () => {
