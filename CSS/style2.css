@@ -188,10 +188,6 @@
     display: none;
   }
 
-  .workCards:nth-child(1) p {
-    display: none;
-  }
-
   .workCards:nth-child(1) ul {
     display: none;
   }
@@ -255,6 +251,7 @@
   .workCards:nth-child(4) button {
     display: none;
   }
+
   .workCards:nth-child(5) button {
     display: none;
   }
@@ -310,13 +307,6 @@
     margin: 0 24px;
   }
 
-  .mobile-screen-form {
-    width: 100%;
-  }
-
-  .mobile-screen-form button {
-    align-self: flex-start;
-  }
 
   footer {
     align-items: center;
@@ -345,10 +335,6 @@
     display: none;
   }
 
-  /* .work-card {
-    display: none;
-  } */
-
   .footer-line {
     display: none;
   }
@@ -357,9 +343,9 @@
     display: none;
   }
 
-  /* .workCards {
+  .workCards:nth-child(1) p {
     display: none;
-  } */
+  }
 }
 
 @media screen and (max-width: 1300px) {

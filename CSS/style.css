@@ -237,7 +237,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   background-image: url('../Icons/work_img.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: center;
 }
 
 .work-hint h2 {
