@@ -204,6 +204,13 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   justify-content: center;
 }
 
+/* .title-line {
+  margin-top: 24px;
+  margin-bottom: 80px;
+  border: 1px solid #777171;
+  width: auto;
+} */
+
 .workTitle {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -490,6 +497,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 }
 
 /* Contact styling */
+
 .contact-container {
   font-family: 'Inter', sans-serif;
   width: 100%;

@@ -79,6 +79,7 @@
   color: #344563;
   opacity: 0.8;
   text-align: left;
+  /* justify-content: center; */
   width: 100%;
 }
 
@@ -131,8 +132,8 @@
   }
 
   .portfolioModal img {
-    width: 708px;
-    height: 400px;
+    width: 740px;
+    height: 428px;
   }
 
   .d-links {
@@ -158,7 +159,6 @@
     width: 18px;
     height: 20px;
   }
-
   .portfolioModal p {
     width: 100%;
     font-size: 20px;
