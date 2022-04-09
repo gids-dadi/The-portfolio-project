@@ -238,8 +238,7 @@ const displayPopupModal = (i) => {
 // Open
 document
   .querySelectorAll('.works-button')
-  .forEach((row) => row.addEventListener('click', () => displayPopupModal(row.getAttribute('data-index'))),
-  );
+  .forEach((row) => row.addEventListener('click', () => displayPopupModal(row.getAttribute('data-index'))), );
 // close pop
 const closeModal = document.querySelector('#portfolioPopup');
 // eslint-disable-next-line no-unused-vars
