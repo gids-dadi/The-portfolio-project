@@ -164,7 +164,7 @@ for (let i = 1; i < cardDetails.length; i += 1) {
                   ${tech}
                 </ul>
               </div>
-              <button type="button" data-index="${i}" class="button">See Project</button>
+              <button type="button" class="button works-button"  data-index="${i}">See Project</button>
   </div>`;
 }
 
