@@ -613,6 +613,13 @@ footer {
   align-self: center;
 }
 
+.displayErrorMessage {
+  color: #fff;
+  font-size: 13px;
+  background-color: red;
+  display: none;
+}
+
 /*  Disabled elements in the mobile version */
 
 .large-side-image {
