@@ -251,13 +251,11 @@ const closePopupModal = () => {
 };
 
 // Validation
-
 const emailInputField = document.getElementById('email');
 const formElement = document.getElementById('contact-form');
 const displayErrorElement = document.getElementById('display-error');
 
 displayErrorElement.innerHTML = 'The Email Field must be in lowercase!!!';
-
 formElement.addEventListener('submit', (event) => {
   if (emailInputField.value !== emailInputField.value.toLowerCase()) {
     event.preventDefault();
