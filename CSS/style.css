@@ -185,7 +185,6 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   right: -1px;
 }
 
-
 .work-wrap h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -197,13 +196,11 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   padding-top: 10px;
 }
 
-
-
 .work-section {
   display: flex;
   flex-direction: column;
   height: auto;
-  padding:  120px 24px;
+  padding: 120px 24px;
   justify-content: center;
 }
 
@@ -216,13 +213,13 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 
 .workTitle {
   font-family: 'Crete Round', serif;
-   font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 42px;
   line-height: 52px;
   color: #1c1a19;
   padding-bottom: 40px;
-  border-bottom: 1px solid #777171 ;
+  border-bottom: 1px solid #777171;
 }
 
 .work-hint {
@@ -238,9 +235,9 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   width: 100%;
   height: 30vh;
   background-image: url('../Icons/work_img.png');
-     background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 .work-hint h2 {
@@ -251,7 +248,6 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   line-height: 44px;
   color: #091e42;
   margin-bottom: 30px;
-
 }
 
 .work-hint-text p {
@@ -310,11 +306,10 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   color: #5b5957;
 }
 
-
 /* .workCards  */
 .workCards {
   background-image: url('../Icons/work_placeholder.png');
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   margin-bottom: 24px;
@@ -343,7 +338,6 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   margin-right: 18px;
 }
 
-
 .workCards ul {
   display: flex;
   flex-direction: row;
@@ -352,7 +346,6 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   margin-bottom: 10px;
   justify-content: space-between;
 }
-
 
 .workCards li {
   font-family: 'Inter', sans-serif;
@@ -625,7 +618,6 @@ footer {
 .large-side-image {
   display: none;
 }
-
 
 .desktopCards {
   display: none;
