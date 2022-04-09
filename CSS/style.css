@@ -620,6 +620,18 @@ footer {
   display: none;
 }
 
+.error-msg {
+  display: none;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 73%;
+  text-align: center;
+  padding: 15px;
+  transition: visibility 30s ease-in-out;
+  background-color: red;
+} 
+
 /*  Disabled elements in the mobile version */
 
 .large-side-image {
