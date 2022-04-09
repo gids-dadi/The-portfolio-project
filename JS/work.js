@@ -238,8 +238,7 @@ const displayPopupModal = (i) => {
 // Open
 document
   .querySelectorAll('.works-button')
-  .forEach((row) =>
-    row.addEventListener('click', () =>
+  .forEach((row) =>row.addEventListener('click', () =>
       displayPopupModal(row.getAttribute('data-index'))
     )
   );
