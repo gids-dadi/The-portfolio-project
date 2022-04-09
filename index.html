@@ -183,6 +183,7 @@
           </div>
 
           <form
+            id="contact-form"
             class="mobile-screen-form"
             action="https://formspree.io/f/mzbovngz"
             method="POST"
@@ -199,13 +200,14 @@
               </li>
               <li>
                 <input
+                  id="email"
                   type="email"
                   name="email"
                   placeholder="Email address"
                   required
                 />
               </li>
-
+              <span id="display-error"></span>
               <li>
                 <textarea
                   rows="10"
