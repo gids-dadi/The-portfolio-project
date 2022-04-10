@@ -20,10 +20,10 @@ body {
 
 header {
   background: #3c3a39;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 15px 0;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  padding: 12px 0;
   width: 100%;
 }
 
@@ -35,6 +35,7 @@ nav {
 nav .mobile-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .name_logo {
@@ -507,6 +508,10 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   padding: 24px;
 }
 
+.contact-form {
+  width: 60%;
+}
+
 .contact-text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -618,20 +623,17 @@ footer {
   font-size: 13px;
   background-color: red;
   display: none;
-}
-.error-msg {
-  display: none;
-  width: 100%;
-  height: 20px;
-  position: absolute;
-  top: 73%;
-  text-align: center;
-  padding: 15px;
-  transition: visibility 30s ease-in-out;
-  background-color: red;
+    padding: 15px;
+      text-align: center;
+        transition: display 30s ease-in-out;
 }
 
+
 /*  Disabled elements in the mobile version */
+
+#display-error {
+  display: none;
+}
 
 .large-side-image {
   display: none;

@@ -119,6 +119,10 @@
   height: 20px;
 }
 
+/* #blur {
+  filter: blur(5px);
+} */
+
 @media screen and (min-width: 768px) {
   .works-popup {
     width: 90%;
